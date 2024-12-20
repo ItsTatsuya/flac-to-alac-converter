@@ -1,0 +1,6 @@
+pytest
+pathlib
+tqdm
+tkinterdnd2
+tkintermodernthemes
+pyinstaller
