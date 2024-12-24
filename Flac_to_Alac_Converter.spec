@@ -4,7 +4,7 @@ import site
 from pathlib import Path
 
 # Define paths
-PYTHON_PATH = r'C:\Users\Tatsuya\AppData\Local\Programs\Python\Python313'
+PYTHON_PATH = os.path.join(os.getenv("LOCALAPPDATA"), "Programs", "Python", "Python313")
 SITE_PACKAGES = os.path.join(PYTHON_PATH, 'Lib', 'site-packages')
 TKDND_PATH = os.path.join(SITE_PACKAGES, 'tkinterdnd2', 'tkdnd', 'win-x64')
 
