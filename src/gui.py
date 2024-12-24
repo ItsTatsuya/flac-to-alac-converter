@@ -1,12 +1,16 @@
 import tkinter as tk
+import sv_ttk
 from tkinter import filedialog, ttk
 from pathlib import Path
 import threading
 from converter import FlacConverter
 import os
 from tkinterdnd2 import DND_FILES, TkinterDnD
-import TKinterModernThemes as TKMT
 import logging
+import requests
+import zipfile
+import sys
+import shutil
 
 class ConverterGUI:
     def __init__(self):
@@ -45,7 +49,7 @@ class ConverterGUI:
         ttk.Button(controls, text="Add Files", command=self.select_files).pack(side="left", padx=5)
         ttk.Button(controls, text="Add Folder", command=self.select_folder).pack(side="left", padx=5)
         ttk.Button(controls, text="Clear List", command=self.clear_files).pack(side="left", padx=5)
-        
+               
         # Output selection
         output_frame = ttk.LabelFrame(self.root, text="Output Folder")
         output_frame.pack(fill="x", padx=5, pady=5)
@@ -165,4 +169,5 @@ class ConverterGUI:
 
 if __name__ == "__main__":
     app = ConverterGUI()
+    sv_ttk.set_theme("dark")
     app.run()

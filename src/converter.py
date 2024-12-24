@@ -2,6 +2,7 @@ import os
 from pathlib import Path
 import subprocess
 import logging
+import tqdm
 
 class FlacConverter:
     def __init__(self):
