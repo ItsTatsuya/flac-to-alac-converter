@@ -6,7 +6,7 @@ A simple GUI application to convert FLAC audio files to Apple Lossless Audio Cod
 
 [![License](https://img.shields.io/github/license/ItsTatsuya/flac-to-alac-converter?style=for-the-badge)](LICENSE)
 
-![Issues](https://img.shields.io/github/issues/ItsTatsuya/flac-to-alac-converter?style=for-the-badge)
+[![Issues](https://img.shields.io/github/issues/ItsTatsuya/flac-to-alac-converter?style=for-the-badge)](https://github.com/ItsTatsuya/flac-to-alac-converter/issues)
 
 [![Download Latest Release](https://img.shields.io/github/v/release/YourUsername/flac-to-alac-converter?style=for-the-badge&label=Download)](https://github.com/ItsTatsuya/flac-to-alac-converter/releases/latest)
 
